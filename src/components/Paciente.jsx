@@ -1,7 +1,14 @@
-export const Paciente = ({ patient, setPatient }) => {
-  const { name, owner, email, date, symptoms } = patient;
+export const Paciente = ({ patient, setPatient, deletePatient }) => {
+  const { id, name, owner, email, date, symptoms } = patient;
 
-  const handleDelete = () => {};
+  const handleDelete = () => {
+    const respuesta = window.confirm(
+      '¿Estás seguro de eliminar este paciente?'
+    );
+    if (respuesta) {
+      deletePatient(id);
+    }
+  };
 
   return (
     <div className="mb-3 bg-white shadow-md px-5 py-6 rounded-xl">
