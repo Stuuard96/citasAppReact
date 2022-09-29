@@ -43,10 +43,6 @@ export const Formulario = ({ patients, setPatients, patient, setPatient }) => {
     });
   };
 
-  if (patient.id) {
-  } else {
-  }
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if ([name, owner, email, date, symptoms].includes('')) {
