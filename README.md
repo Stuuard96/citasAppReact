@@ -6,7 +6,7 @@ https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-a
 Esta aplicación de citas cuenta con un CRUD para listar, editar, crear y eliminar las citas.
 
 ## Link del proyecto
-https://heroreactapp.netlify.app
+https://citas-appreact.netlify.app/
 
 ## Funcionalidades
 - CRUD (crear, editar, elimnar, actualizar) las citas.
