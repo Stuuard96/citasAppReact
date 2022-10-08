@@ -1,4 +1,4 @@
-# Aplicación de Heroes
+# Aplicación de Citas
 La siguiente aplicación fue realizada como parte del curso proporcionado por Juan Pablo de la Torre - Udemy.  
 https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/
 
